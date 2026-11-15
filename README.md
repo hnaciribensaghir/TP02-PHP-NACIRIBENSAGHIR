@@ -18,6 +18,13 @@
 9. Exercice 9 : tableau associatif et foreach
 10. Exercice 10 : formulaires GET et POST
 
+### Exercice 2
+
+`$note` et `$Note` sont deux variables différentes car PHP est sensible à la casse pour les noms de variables.
+
+Noms valides : `$a`, `$_a`, `$a_a`, `$AAA`, `$a1`.
+Noms invalides : `$a!` (le caractère `!` n'est pas autorisé) et `$1a` (un nom ne peut pas commencer par un chiffre).
+
 ## Exécution
 
 Depuis la racine du dépôt, lancer :
