@@ -13,7 +13,7 @@
         Commentaire sur plusieurs lignes :
         affichage des informations fictives de l'etudient
         */
-        echo "Nom : NACIRI Ben Saghir<br>";
+        echo "Nom : Naciri Ben Saghir<br>";
         echo "Prénom : Hibat-ALLAH<br>";
         echo "Groupe : Grp1<br>";
         ?>
