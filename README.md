@@ -24,6 +24,20 @@
 
 Noms valides : `$a`, `$_a`, `$a_a`, `$AAA`, `$a1`.
 Noms invalides : `$a!` (le caractère `!` n'est pas autorisé) et `$1a` (un nom ne peut pas commencer par un chiffre).
+### Exercice 4
+
+`echo true` affiche `1`, alors que `echo false` n'affiche rien (chaîne vide), car `echo` convertit la valeur en chaîne de caractères. `var_dump()` affiche le type et la valeur réels : `bool(true)` et `bool(false)`.
+### Exercice 5
+
+| Valeur testée | Message obtenu |
+|---|---|
+| -1 | Note invalide |
+| 9 | Non validé |
+| 10 | Passable |
+| 12 | Assez bien |
+| 14 | Bien |
+| 16 | Très bien |
+| 21 | Note invalide |
 
 ## Exécution
 
