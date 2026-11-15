@@ -38,6 +38,13 @@ Noms invalides : `$a!` (le caractère `!` n'est pas autorisé) et `$1a` (un nom 
 | 14 | Bien |
 | 16 | Très bien |
 | 21 | Note invalide |
+### Exercice 10
+
+**GET :** les valeurs apparaissent dans l'URL, après le `?`, sous la forme `ex10_get.php?nom=...&prenom=...&groupe=...`.
+
+**POST :** les valeurs sont envoyées dans le corps de la requête ; l'URL reste `ex10_post.php`, sans paramètres visibles.
+
+**Comparaison :** avec GET, les données sont visibles et modifiables dans l'URL ; avec POST, elles ne sont pas affichées dans l'URL.
 
 ## Exécution
 
